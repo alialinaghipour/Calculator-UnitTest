@@ -15,5 +15,10 @@ namespace Calculators
         {
             return number1 - number2;
         }
+
+        public int Division(int number1, int number2)
+        {
+            return number1 / number2;
+        }
     }
 }
