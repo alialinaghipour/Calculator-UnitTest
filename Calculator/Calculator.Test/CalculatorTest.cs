@@ -39,5 +39,13 @@ namespace Test
 
             Assert.AreEqual(2, division);
         }
+
+        [TestMethod]
+        public void MultiplicationCalculatorTest()
+        {
+            var multiplication = _calculator.Multiplication(8, 4);
+
+            Assert.AreEqual(28, multiplication);
+        }
     }
 }
