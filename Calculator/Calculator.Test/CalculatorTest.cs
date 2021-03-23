@@ -23,5 +23,13 @@ namespace Test
 
             Assert.AreEqual(12, plus);
         }
+
+        [TestMethod]
+        public void MinusCalculatorTest()
+        {
+            var minus = _calculator.Minus(8, 4);
+
+            Assert.AreEqual(4, minus);
+        }
     }
 }
