@@ -31,5 +31,13 @@ namespace Test
 
             Assert.AreEqual(4, minus);
         }
+
+        [TestMethod]
+        public void DivisionCalculatorTest()
+        {
+            var division = _calculator.Division(8, 4);
+
+            Assert.AreEqual(2, division);
+        }
     }
 }
