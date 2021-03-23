@@ -17,6 +17,7 @@ namespace Calculators
             Calculator calculator = new Calculator();
 
             Console.WriteLine("Plus : "+calculator.Plus(number1,number2));
+            Console.WriteLine("Minus : "+calculator.Minus(number1,number2));
 
             Console.ReadKey();
         }
