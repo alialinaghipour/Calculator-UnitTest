@@ -19,6 +19,7 @@ namespace Calculators
             Console.WriteLine("Plus : "+calculator.Plus(number1,number2));
             Console.WriteLine("Minus : "+calculator.Minus(number1,number2));
             Console.WriteLine("Division : "+calculator.Division(number1,number2));
+            Console.WriteLine("Multiplication : "+calculator.Multiplication(number1,number2));
 
             Console.ReadKey();
         }

@@ -45,7 +45,7 @@ namespace Test
         {
             var multiplication = _calculator.Multiplication(8, 4);
 
-            Assert.AreEqual(28, multiplication);
+            Assert.AreEqual(32, multiplication);
         }
     }
 }
